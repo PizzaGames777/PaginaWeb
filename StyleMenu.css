@@ -48,11 +48,18 @@ entre los elementos, y gap para la distancia minima de estos*/
   background-color: #ff00ff;
   padding: 20px 0;
   box-shadow: 0 0 20px #ff00ff;
+  animation: pulseShadow infinite 2s;
 }
 
 /* distancia del main con el heather y nav */
 .main-content {
   padding: 40px 20px;
+}
+
+.title-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /*alineacion del titulo, color de este, sombra de este. margen con el nav y tamaño de letra*/
@@ -62,6 +69,14 @@ entre los elementos, y gap para la distancia minima de estos*/
   text-shadow: 0 0 15px #ff00ff;
   margin-top: 40px;
   font-size: 30px;
+  flex: 0 0 90%;
+}
+
+.Carrito{
+  width: 75px;
+  margin-top: 20px;
+  border-radius: 100%;
+  animation: pulseShadow infinite 2s;
 }
 
 /*distancia con un display flex, poner todo en el medio, separarlos con el wrap y ponerlos
